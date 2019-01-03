@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://fonts.googleapis.com/css?family=Courgette");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9512,47 +9513,55 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
-  background-color: #000000;
-}
-
 header {
-  background-image: url("/images/menu_image_2.jpg");
+  background-image: url("/images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 1rem;
-  margin: 0 auto;
+  height: 80vh;
+  width: 100vw;
+}
+header .opac {
+  background-color: #000000;
+  opacity: 0.8;
+  height: 80vh;
+  width: 100vw;
 }
 header .container {
-  width: 60vw;
-}
-header .container .row {
+  max-width: 90%;
+  text-align: center;
+  display: flex;
   margin: 0 auto;
+  padding: 0 5%;
+}
+header .container .logo {
+  padding-top: 3%;
+  margin: 0 2.5rem;
+}
+header .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-top: 6%;
+  margin-bottom: 0;
+  list-style: none;
+  margin: 0 1rem;
   text-align: center;
 }
-header .container .row ul {
+header .container ul li a {
+  text-decoration: none;
   text-transform: uppercase;
-  margin-top: 2rem;
-  margin: 0 0.8rem;
-  padding: 0.4rem 0rem;
-  padding-top: 1.5rem;
-}
-header .container .row ul li {
-  background-color: transparent;
-  list-style-type: none;
-}
-header .container .row ul li a {
-  display: flex;
+  color: #ffffff;
+  font-size: 1rem;
+  vertical-align: auto;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
-  padding: 1.3rem 1rem;
-  color: #ffffff;
-  font-size: 0.8rem;
-  text-decoration: none;
+  padding: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
-header .container .row ul li a:hover {
-  background-color: #C42D40;
-  color: #ffffff;
+header .container ul li a:hover {
+  background-color: #a71a2d;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
