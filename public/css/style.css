@@ -5,6 +5,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9510,6 +9511,48 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+body {
+  background-color: #000000;
+}
+
+header {
+  background-image: url("/images/menu_image_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+header .container {
+  width: 60vw;
+}
+header .container .row {
+  margin: 0 auto;
+  text-align: center;
+}
+header .container .row ul {
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin: 0 0.8rem;
+  padding: 0.4rem 0rem;
+  padding-top: 1.5rem;
+}
+header .container .row ul li {
+  background-color: transparent;
+  list-style-type: none;
+}
+header .container .row ul li a {
+  display: flex;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding: 1.3rem 1rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+header .container .row ul li a:hover {
+  background-color: #C42D40;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
