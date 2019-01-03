@@ -9513,17 +9513,21 @@ h3 {
     border-color: #dee2e6;
   }
 }
+span {
+  font-size: 6rem;
+}
+
 header {
   background-image: url("/images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
 }
 header .opac {
   background-color: #000000;
   opacity: 0.8;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
 }
 header .container {
@@ -9534,7 +9538,6 @@ header .container {
   padding: 0 5%;
 }
 header .container .logo {
-  padding-top: 3%;
   margin: 0 2.5rem;
 }
 header .container ul {
@@ -9562,6 +9565,49 @@ header .container ul li a {
 header .container ul li a:hover {
   background-color: #a71a2d;
   opacity: 1;
+}
+header .head-partie2 {
+  max-width: 60%;
+  margin: 6% auto;
+  display: block;
+}
+header .head-partie2 h1 {
+  font-family: "Courgette", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+}
+header .head-partie2 .text1 {
+  text-transform: uppercase;
+}
+header .head-partie2 .text2 {
+  color: #a71a2d;
+  text-transform: uppercase;
+}
+header .head-partie2 .text3 {
+  font-size: 5rem;
+}
+header .head-partie2 .btn {
+  background-color: #fff;
+  border-radius: 5rem;
+  padding: 0.8rem 2rem;
+  margin: 2rem 0.5rem;
+  text-transform: uppercase;
+}
+header .head-partie2 .btn-left {
+  color: #a71a2d;
+}
+header .head-partie2 .btn-left:hover {
+  background-color: #a71a2d;
+  color: #ffffff;
+}
+header .head-partie2 .btn-right {
+  background-color: #a71a2d;
+  color: #ffffff;
+}
+header .head-partie2 .btn-right:hover {
+  background-color: #ffffff;
+  color: #a71a2d;
 }
 
 /*# sourceMappingURL=style.css.map */

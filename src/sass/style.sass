@@ -2,23 +2,25 @@
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
 @import url('https://fonts.googleapis.com/css?family=Courgette')
 
-$color1: #ffffff
-$color2: #a71a2d
+$color1: #ffffff //white
+$color2: #a71a2d //red-ish
 
 //font-family: 'Courgette', cursive
 
+span
+    font-size: 6rem
 
 
 header
     background-image: url('/images/banner1.jpg')
     background-size: cover
     background-repeat: no-repeat
-    height: 80vh
+    height: 100vh
     width:100vw
     .opac
         background-color: #000000
         opacity: 0.8
-        height: 80vh
+        height: 100vh
         width:100vw
 
     .container
@@ -28,7 +30,6 @@ header
         margin: 0 auto
         padding: 0 5%
         .logo
-            padding-top: 3%
             margin: 0 2.5rem
         ul
             display: flex
@@ -54,3 +55,36 @@ header
                     &:hover
                         background-color: $color2
                         opacity: 1
+    .head-partie2
+        max-width: 60%
+        margin: 6% auto
+        display: block
+        h1
+            font-family: 'Courgette', cursive
+            font-size: 3rem
+            text-align: center
+            color: $color1
+        .text1
+            text-transform: uppercase
+        .text2
+            color: $color2
+            text-transform: uppercase
+        .text3
+            font-size: 5rem
+        .btn
+            background-color: #fff
+            border-radius: 5rem
+            padding: 0.8rem 2rem
+            margin: 2rem 0.5rem
+            text-transform: uppercase
+        .btn-left
+            color: $color2
+            &:hover
+                background-color: $color2
+                color: $color1
+        .btn-right
+            background-color: $color2
+            color: $color1
+            &:hover
+                background-color: $color1
+                color: $color2
