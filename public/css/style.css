@@ -9513,15 +9513,8 @@ h3 {
     border-color: #dee2e6;
   }
 }
-span {
-  font-size: 6rem;
-}
-
-h1 {
-  font-family: "Courgette", cursive;
-  text-align: center;
-  padding: 0 auto;
-  margin: 0 auto;
+hr {
+  margin: 0;
 }
 
 img {
@@ -9539,6 +9532,10 @@ img {
   padding: 0;
 }
 
+.col-2 {
+  border-right: 1px solid #dddddd;
+}
+
 .box-right {
   text-align: right;
 }
@@ -9551,12 +9548,39 @@ img {
   background-color: #000000;
   opacity: 0.8;
   height: 98vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .container-flex {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+span {
+  font-size: 6rem;
+}
+
+h1 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 0 auto;
 }
 
 .text1 {
@@ -9610,7 +9634,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 98vh;
-  width: 100vw;
+  width: 100%;
 }
 header .container {
   max-width: 90%;
@@ -9668,8 +9692,7 @@ header .head-partie2 h1 {
 .our-resto {
   background-image: url("/images/main_bg.jpg");
   background-repeat: repeat;
-  height: 90vh;
-  width: 100vw;
+  width: 100%;
   margin: 0;
   padding: 3rem 6rem;
 }
@@ -9677,16 +9700,67 @@ header .head-partie2 h1 {
   margin: 0;
   text-align: center;
   border: 1px solid #dddddd;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 .our-resto .our-story h1 {
   padding-top: 3rem;
 }
-.our-resto .our-story p {
-  max-width: 40%;
-  margin: 0 auto;
+.our-resto .our-story .about-us {
+  max-width: 45%;
   text-align: center;
-  padding: 3rem 0rem;
+  padding-top: 3rem;
+  font-size: 1.2rem;
+}
+.our-resto .our-story .our-menu {
+  margin-top: 4rem;
+}
+.our-resto .our-story .our-menu .menu-options {
+  padding: 0;
+  margin: 0;
+}
+.our-resto .our-story .our-menu .menu-options ul li {
+  height: 10rem;
+  display: block;
+}
+.our-resto .our-story .our-menu .menu-options ul li:hover {
+  border-right: 0.5rem solid #a71a2d;
+}
+.our-resto .our-story .our-menu .menu-options ul li:hover i {
+  color: #a71a2d;
+}
+.our-resto .our-story .our-menu .menu-options ul li i {
+  margin-top: 1rem;
+  color: #dddddd;
+}
+.our-resto .our-story .our-menu ul {
+  padding: 0;
+  list-style: none;
+}
+.our-resto .our-story .our-menu ul li {
+  padding: 0.8rem 0rem;
+  display: flex;
+}
+.our-resto .our-story .our-menu ul li img {
+  max-width: 9rem;
+  max-height: 9rem;
+  border-radius: 50%;
+  background: #dddddd;
+  padding: 0.5rem;
+  margin: 0;
+}
+.our-resto .our-story .our-menu ul li .menu-content {
+  padding-top: 1.5rem;
+  margin-left: 1rem;
+  text-align: left;
+  max-width: 55%;
+  font-size: 1.2rem;
+}
+.our-resto .our-story .our-menu ul li .price {
+  color: #a71a2d;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  padding: 0 1rem;
+  background-color: #dddddd;
 }
 
 /*# sourceMappingURL=style.css.map */
