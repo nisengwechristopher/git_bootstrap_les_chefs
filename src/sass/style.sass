@@ -8,8 +8,12 @@
 $color1: #ffffff //white
 $color2: #a71a2d //red-ish
 $color3: #dddddd // lightger-ish
+$color4: #000000cc //lightblack-ish
+$color5: #000000 //black
+$color6: #a5a5a5
 
 // general classes
+
 hr
     margin: 0
 img
@@ -31,11 +35,12 @@ img
 .box-left
     text-align: left
 //////////////////
+
 .opac
-    background-color: #000000
-    opacity: 0.8
+    background: url("/public/images/bottom_decoration_img.png") bottom repeat-x, $color4
     height: 98vh
     width:100%
+
 
 .container-flex
     margin: 0 !important
@@ -99,7 +104,7 @@ p
 //Partie I : navigation
 
 header
-    background-image: url("/images/banner1.jpg")
+    background-image: url("/public/images/banner1.jpg")
     background-size: cover
     background-repeat: no-repeat
     height: 98vh
@@ -110,6 +115,7 @@ header
         display: flex
         margin: 0 auto
         padding: 0 5%
+        opacity: none
         .logo
             margin: 0 2.5rem
         ul
@@ -143,33 +149,26 @@ header
             font-size: 3rem
             text-align: center
             color: $color1
-
-//////////////////
-
-//decoration du bas
-.bottom-deco
-    height: 1rem
-    opacity: 0.8
-    background-image: url("/images/bottom_decoration_img.png")
-    background-size: contain
-
+           
 ////////////////////////////////////////////////////
 
-// partie I : our resto
+//section II our-resto
 
 .our-resto
-    background-image: url("/images/main_bg.jpg")
+    background-image: url("/public/images/main_bg.jpg")
     background-repeat: repeat
     width:100%
     margin: 0
     padding: 3rem 6rem
-    .our-story
+    
+    .our-story // partie I : our story
         margin: 0
         text-align: center
         border: 1px solid $color3
-        background-color: $color1 !important
+        background-color: $color1
         h1
             padding-top: 3rem
+
         .about-us
             max-width:45%
             text-align: center
@@ -177,22 +176,21 @@ header
             font-size: 1.2rem
 
         .our-menu  //partie II : our menu
-
             margin-top: 4rem
+
             .menu-options
                 padding: 0
                 margin: 0
-                ul
-                    li
-                        height: 10rem
-                        display: block
-                        &:hover
-                            border-right: 0.5rem solid $color2
-                            i
-                                color: $color2
+                li
+                    height: 10rem
+                    display: block
+                    &:hover
+                        border-right: 0.5rem solid $color2
                         i
-                            margin-top: 1rem
-                            color: $color3
+                            color: $color2
+                    i
+                        margin-top: 1rem
+                        color: $color3
 
             ul
                 padding: 0
@@ -224,4 +222,29 @@ header
                         
 
                    
+
+////////////////////////////////////////////////////
+
+// section III : nos chefs
+
+.noschefs
+    background-image: url("/public/images/team_background.jpg")
+    position: relative
+    .chefs
+        background: #000000af
+        text-align: center
+        color: $color1
+        padding: 4rem
+        ul
+            padding-top: 4rem
+            list-style: none
+            display: flex
+            margin: 0 auto
+            li                
+                margin: 0 auto
+                img
+                    height: 30rem
+                    border-bottom: 1px solid #696969
+                p
+                    font-size: 1.3rem
 

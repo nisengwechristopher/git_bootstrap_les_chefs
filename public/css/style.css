@@ -9545,8 +9545,7 @@ img {
 }
 
 .opac {
-  background-color: #000000;
-  opacity: 0.8;
+  background: url("/public/images/bottom_decoration_img.png") bottom repeat-x, #000000cc;
   height: 98vh;
   width: 100%;
 }
@@ -9630,7 +9629,7 @@ p {
 }
 
 header {
-  background-image: url("/images/banner1.jpg");
+  background-image: url("/public/images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 98vh;
@@ -9642,6 +9641,7 @@ header .container {
   display: flex;
   margin: 0 auto;
   padding: 0 5%;
+  opacity: none;
 }
 header .container .logo {
   margin: 0 2.5rem;
@@ -9682,15 +9682,8 @@ header .head-partie2 h1 {
   color: #ffffff;
 }
 
-.bottom-deco {
-  height: 1rem;
-  opacity: 0.8;
-  background-image: url("/images/bottom_decoration_img.png");
-  background-size: contain;
-}
-
 .our-resto {
-  background-image: url("/images/main_bg.jpg");
+  background-image: url("/public/images/main_bg.jpg");
   background-repeat: repeat;
   width: 100%;
   margin: 0;
@@ -9700,7 +9693,7 @@ header .head-partie2 h1 {
   margin: 0;
   text-align: center;
   border: 1px solid #dddddd;
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 .our-resto .our-story h1 {
   padding-top: 3rem;
@@ -9718,17 +9711,17 @@ header .head-partie2 h1 {
   padding: 0;
   margin: 0;
 }
-.our-resto .our-story .our-menu .menu-options ul li {
+.our-resto .our-story .our-menu .menu-options li {
   height: 10rem;
   display: block;
 }
-.our-resto .our-story .our-menu .menu-options ul li:hover {
+.our-resto .our-story .our-menu .menu-options li:hover {
   border-right: 0.5rem solid #a71a2d;
 }
-.our-resto .our-story .our-menu .menu-options ul li:hover i {
+.our-resto .our-story .our-menu .menu-options li:hover i {
   color: #a71a2d;
 }
-.our-resto .our-story .our-menu .menu-options ul li i {
+.our-resto .our-story .our-menu .menu-options li i {
   margin-top: 1rem;
   color: #dddddd;
 }
@@ -9761,6 +9754,33 @@ header .head-partie2 h1 {
   margin-bottom: 5rem;
   padding: 0 1rem;
   background-color: #dddddd;
+}
+
+.noschefs {
+  background-image: url("/public/images/team_background.jpg");
+  position: relative;
+}
+.noschefs .chefs {
+  background: #000000af;
+  text-align: center;
+  color: #ffffff;
+  padding: 4rem;
+}
+.noschefs .chefs ul {
+  padding-top: 4rem;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+}
+.noschefs .chefs ul li {
+  margin: 0 auto;
+}
+.noschefs .chefs ul li img {
+  height: 30rem;
+  border-bottom: 1px solid #696969;
+}
+.noschefs .chefs ul li p {
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
