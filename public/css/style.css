@@ -9522,6 +9522,10 @@ img {
   margin: 0 auto;
 }
 
+input {
+  text-transform: capitalize;
+}
+
 .row {
   margin: 0;
   padding: 0;
@@ -9534,6 +9538,21 @@ img {
 
 .col-2 {
   border-right: 1px solid #dddddd;
+}
+
+.style-container {
+  background-image: url("/public/images/main_bg.jpg");
+  background-repeat: repeat;
+  width: 100%;
+  margin: 0;
+  padding: 3rem 6rem;
+}
+
+.style-container2 {
+  margin: 0;
+  text-align: center;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
 }
 
 .box-right {
@@ -9606,24 +9625,24 @@ p {
 .btn {
   background-color: #fff;
   border-radius: 5rem;
-  padding: 0.8rem 2rem;
+  padding: 1rem 2rem;
   margin: 2rem 0.5rem;
   text-transform: uppercase;
 }
 
-.btn-left {
+.btn1 {
   color: #a71a2d;
 }
-.btn-left:hover {
+.btn1:hover {
   background-color: #a71a2d;
   color: #ffffff;
 }
 
-.btn-right {
+.btn2 {
   background-color: #a71a2d;
   color: #ffffff;
 }
-.btn-right:hover {
+.btn2:hover {
   background-color: #ffffff;
   color: #a71a2d;
 }
@@ -9682,58 +9701,45 @@ header .head-partie2 h1 {
   color: #ffffff;
 }
 
-.our-resto {
-  background-image: url("/public/images/main_bg.jpg");
-  background-repeat: repeat;
-  width: 100%;
-  margin: 0;
-  padding: 3rem 6rem;
-}
-.our-resto .our-story {
-  margin: 0;
-  text-align: center;
-  border: 1px solid #dddddd;
-  background-color: #ffffff;
-}
-.our-resto .our-story h1 {
+.style-container .style-container2 h1 {
   padding-top: 3rem;
 }
-.our-resto .our-story .about-us {
+.style-container .style-container2 .about-us {
   max-width: 45%;
   text-align: center;
   padding-top: 3rem;
   font-size: 1.2rem;
 }
-.our-resto .our-story .our-menu {
+.style-container .style-container2 .our-menu {
   margin-top: 4rem;
 }
-.our-resto .our-story .our-menu .menu-options {
+.style-container .style-container2 .our-menu .menu-options {
   padding: 0;
   margin: 0;
 }
-.our-resto .our-story .our-menu .menu-options li {
+.style-container .style-container2 .our-menu .menu-options li {
   height: 10rem;
   display: block;
 }
-.our-resto .our-story .our-menu .menu-options li:hover {
+.style-container .style-container2 .our-menu .menu-options li:hover {
   border-right: 0.5rem solid #a71a2d;
 }
-.our-resto .our-story .our-menu .menu-options li:hover i {
+.style-container .style-container2 .our-menu .menu-options li:hover i {
   color: #a71a2d;
 }
-.our-resto .our-story .our-menu .menu-options li i {
+.style-container .style-container2 .our-menu .menu-options li i {
   margin-top: 1rem;
   color: #dddddd;
 }
-.our-resto .our-story .our-menu ul {
+.style-container .style-container2 .our-menu ul {
   padding: 0;
   list-style: none;
 }
-.our-resto .our-story .our-menu ul li {
+.style-container .style-container2 .our-menu ul li {
   padding: 0.8rem 0rem;
   display: flex;
 }
-.our-resto .our-story .our-menu ul li img {
+.style-container .style-container2 .our-menu ul li img {
   max-width: 9rem;
   max-height: 9rem;
   border-radius: 50%;
@@ -9741,14 +9747,14 @@ header .head-partie2 h1 {
   padding: 0.5rem;
   margin: 0;
 }
-.our-resto .our-story .our-menu ul li .menu-content {
+.style-container .style-container2 .our-menu ul li .menu-content {
   padding-top: 1.5rem;
   margin-left: 1rem;
   text-align: left;
   max-width: 55%;
   font-size: 1.2rem;
 }
-.our-resto .our-story .our-menu ul li .price {
+.style-container .style-container2 .our-menu ul li .price {
   color: #a71a2d;
   margin-top: 2.5rem;
   margin-bottom: 5rem;
@@ -9781,6 +9787,58 @@ header .head-partie2 h1 {
 }
 .noschefs .chefs ul li p {
   font-size: 1.3rem;
+}
+
+.request {
+  background-image: url("/public/images/book_table_bg.jpg");
+  border-radius: 1rem;
+  width: 60rem;
+  height: 40rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.request p {
+  padding-top: 4rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.request .row {
+  margin-top: 4rem;
+}
+.request .row .info-left {
+  text-align: right;
+  margin: 0 auto;
+  padding-left: 3rem;
+  display: block;
+}
+.request .row .info-right {
+  text-align: left;
+  margin: 0 auto;
+  padding-right: 3rem;
+  display: block;
+  overflow: hidden;
+}
+.request .row .query-info {
+  margin: 0.5rem;
+  padding: 0.9rem 8rem 0.9rem 1rem;
+  border-radius: 1.2rem;
+}
+
+.bas-grey {
+  width: 100%;
+}
+.bas-grey .col-6 {
+  margin: 0;
+  padding: 0;
+}
+
+.bas-left {
+  text-align: left;
+}
+
+.bas-right {
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */
