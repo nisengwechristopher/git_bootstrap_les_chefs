@@ -9647,6 +9647,18 @@ p {
   color: #a71a2d;
 }
 
+.btn3 {
+  border-radius: 0.5rem;
+  background-color: #a71a2d;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn3:hover {
+  background-color: #ffffff;
+  color: #a71a2d;
+}
+
 header {
   background-image: url("/public/images/banner1.jpg");
   background-size: cover;
@@ -9839,6 +9851,44 @@ header .head-partie2 h1 {
 
 .bas-right {
   text-align: right;
+}
+
+.blogpost {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+.blogpost .row {
+  padding: 0 auto;
+}
+.blogpost .row .col-6 {
+  margin: 0;
+}
+.blogpost .row .col-6 img {
+  height: 20rem;
+  border: 6px solid #dddddd;
+  border-radius: 0.8rem;
+}
+.blogpost .row .col-6 .mytext {
+  margin-top: 3rem;
+}
+.blogpost .row .col-6 .mytext p {
+  width: 70%;
+  text-align: left;
+  font-size: 1rem;
+}
+.blogpost .row .col-6 .mytext p strong {
+  font-size: 1.4rem;
+}
+.blogpost .row .col-6 .btn3 {
+  position: absolute;
+  text-align: left;
+  top: 17.5rem;
+  right: 6rem;
+  z-index: 1;
+}
+.blogpost .row .col-6 .btn3 span {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
