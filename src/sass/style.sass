@@ -1,6 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-@import url('https://fonts.googleapis.com/css?family=Courgette')
+@font-face
+    font-family: Courgette
+    src: url("public/Courgette/Courgette-Regular.ttf")
 
 
 // variables 
@@ -9,11 +11,12 @@ $color0: #ffffffb5 // transparent white
 $color1: #ffffff //white
 $color2: #a71a2d //red-ish
 $color3: #dddddd // lightger-ish
-$color4: #000000a5 //lightblack-ish
+$color4: #000000cf //lightblack-ish
 $color5: #000000 //black
 
 // general classes
-
+body
+    background-color: $color5
 hr
     margin: 0
 img
@@ -112,7 +115,7 @@ p
     background-color: $color2
     color: $color1
     &:hover
-        background-color: $color1
+        background-color: $color3
         color: $color2
 
 .btn3
@@ -122,7 +125,18 @@ p
     text-align: center
     margin: 0 auto
     &:hover
-        background-color: $color1
+        background-color: $color3
+        color: $color2
+.btn4
+    
+    background-color: $color2
+    border: 1px solid $color1
+    color: $color1
+    padding: .5rem 1rem
+    margin: 0
+    margin-right: .5rem
+    &:hover
+        background-color: $color3
         color: $color2
 
 ////////////////////////////////////////////////////
@@ -176,7 +190,7 @@ header
             font-size: 3rem
             text-align: center
             color: $color1
-           
+
 ////////////////////////////////////////////////////
 
 //section II our-resto
@@ -247,7 +261,7 @@ header
     background-image: url("/public/images/team_background.jpg")
     position: relative
     .chefs
-        background: $color4
+        background: #000000c1
         text-align: center
         color: $color1
         padding: 4rem
@@ -344,7 +358,7 @@ header
 .testimonials
     background-image: url('/public/images/testimonials_background.jpg')
     .clients
-        background: $color4
+        background: #0000008c
         text-align: center
         color: $color1
         padding: 4rem
@@ -413,5 +427,57 @@ header
                 &:hover
                     color: $color0
                     
+////////////////////////////////////////////////////
 
+// section VII : le footer
     
+footer
+    background-image: url("/public/images/footer_background.jpg")
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    color: $color1
+    text-align: left
+    .container-flex
+        background: url("/public/images/footer_bottom_decoration_img.png") repeat-x
+    .row
+        margin: 0 4rem
+        padding-bottom: 2rem
+        h2
+            margin-top: 3rem
+            text-transform: uppercase
+            font-size: 1.5rem
+            font-weight: 300
+        p
+            margin-top: 2rem
+            font-size: 1rem
+            font-weight: 300
+            color: $color0
+        ul
+            list-style: none
+            display: flex
+            padding: 2rem 0 0 0
+            li
+                margin: 1.5rem 1.5rem 0  0
+
+    .center-col
+        padding: .5rem
+        ul
+            margin: .5rem
+            padding: 0
+
+            img
+                height: 5rem
+    .right-col
+        margin: 0
+        padding: 0
+        h2
+            padding-bottom: 1.5rem
+        .row
+            width: 100%
+            height: 4rem
+            margin: 0
+            padding: 0
+            .col-12
+                padding: 0
+    .end-page
+        background-color: $color2
+        height: 6rem

@@ -6,7 +6,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
-@import url("https://fonts.googleapis.com/css?family=Courgette");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9513,6 +9512,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: Courgette;
+  src: url("public/Courgette/Courgette-Regular.ttf");
+}
+body {
+  background-color: #000000;
+}
+
 hr {
   margin: 0;
 }
@@ -9564,7 +9571,7 @@ input {
 }
 
 .opac {
-  background: url("/public/images/bottom_decoration_img.png") bottom repeat-x, #000000a5;
+  background: url("/public/images/bottom_decoration_img.png") bottom repeat-x, #000000cf;
   height: 98vh;
   width: 100%;
 }
@@ -9643,7 +9650,7 @@ p {
   color: #ffffff;
 }
 .btn2:hover {
-  background-color: #ffffff;
+  background-color: #dddddd;
   color: #a71a2d;
 }
 
@@ -9655,7 +9662,20 @@ p {
   margin: 0 auto;
 }
 .btn3:hover {
-  background-color: #ffffff;
+  background-color: #dddddd;
+  color: #a71a2d;
+}
+
+.btn4 {
+  background-color: #a71a2d;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+.btn4:hover {
+  background-color: #dddddd;
   color: #a71a2d;
 }
 
@@ -9779,7 +9799,7 @@ header .head-partie2 h1 {
   position: relative;
 }
 .noschefs .chefs {
-  background: #000000a5;
+  background: #000000c1;
   text-align: center;
   color: #ffffff;
   padding: 4rem;
@@ -9892,7 +9912,7 @@ header .head-partie2 h1 {
   background-image: url("/public/images/testimonials_background.jpg");
 }
 .testimonials .clients {
-  background: #000000a5;
+  background: #0000008c;
   text-align: center;
   color: #ffffff;
   padding: 4rem;
@@ -9971,6 +9991,70 @@ header .head-partie2 h1 {
 }
 .contact .contact-info ul i:hover {
   color: #ffffffb5;
+}
+
+footer {
+  background-image: url("/public/images/footer_background.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #ffffff;
+  text-align: left;
+}
+footer .container-flex {
+  background: url("/public/images/footer_bottom_decoration_img.png") repeat-x;
+}
+footer .row {
+  margin: 0 4rem;
+  padding-bottom: 2rem;
+}
+footer .row h2 {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+footer .row p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ffffffb5;
+}
+footer .row ul {
+  list-style: none;
+  display: flex;
+  padding: 2rem 0 0 0;
+}
+footer .row ul li {
+  margin: 1.5rem 1.5rem 0 0;
+}
+footer .center-col {
+  padding: 0.5rem;
+}
+footer .center-col ul {
+  margin: 0.5rem;
+  padding: 0;
+}
+footer .center-col ul img {
+  height: 5rem;
+}
+footer .right-col {
+  margin: 0;
+  padding: 0;
+}
+footer .right-col h2 {
+  padding-bottom: 1.5rem;
+}
+footer .right-col .row {
+  width: 100%;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+}
+footer .right-col .row .col-12 {
+  padding: 0;
+}
+footer .end-page {
+  background-color: #a71a2d;
+  height: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
