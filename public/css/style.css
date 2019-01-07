@@ -9564,7 +9564,7 @@ input {
 }
 
 .opac {
-  background: url("/public/images/bottom_decoration_img.png") bottom repeat-x, #000000cc;
+  background: url("/public/images/bottom_decoration_img.png") bottom repeat-x, #000000a5;
   height: 98vh;
   width: 100%;
 }
@@ -9693,8 +9693,8 @@ header .container ul li a {
   color: #ffffff;
   font-size: 1rem;
   vertical-align: auto;
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffffb5;
+  border-bottom: 1px solid #ffffffb5;
   padding: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -9779,7 +9779,7 @@ header .head-partie2 h1 {
   position: relative;
 }
 .noschefs .chefs {
-  background: #000000af;
+  background: #000000a5;
   text-align: center;
   color: #ffffff;
   padding: 4rem;
@@ -9858,37 +9858,72 @@ header .head-partie2 h1 {
   margin: 0 auto;
   margin-top: 6rem;
 }
-.blogpost .row {
-  padding: 0 auto;
-}
-.blogpost .row .col-6 {
+.blogpost .col-6 {
   margin: 0;
 }
-.blogpost .row .col-6 img {
+.blogpost .col-6 img {
   height: 20rem;
   border: 6px solid #dddddd;
   border-radius: 0.8rem;
 }
-.blogpost .row .col-6 .mytext {
+.blogpost .col-6 .mytext {
   margin-top: 3rem;
 }
-.blogpost .row .col-6 .mytext p {
+.blogpost .col-6 .mytext p {
   width: 70%;
   text-align: left;
   font-size: 1rem;
 }
-.blogpost .row .col-6 .mytext p strong {
+.blogpost .col-6 .mytext p strong {
   font-size: 1.4rem;
 }
-.blogpost .row .col-6 .btn3 {
+.blogpost .col-6 .btn3 {
   position: absolute;
   text-align: left;
   top: 17.5rem;
-  right: 6rem;
+  right: 6.5rem;
   z-index: 1;
 }
-.blogpost .row .col-6 .btn3 span {
+.blogpost .col-6 .btn3 span {
   font-size: 1.5rem;
+}
+
+.testimonials {
+  background-image: url("/public/images/testimonials_background.jpg");
+}
+.testimonials .clients {
+  background: #000000a5;
+  text-align: center;
+  color: #ffffff;
+  padding: 4rem;
+}
+.testimonials .clients .col-2 {
+  border: 0;
+}
+.testimonials .clients .col-2 img {
+  border: 6px solid #dddddd;
+  border-radius: 50%;
+  height: 12rem;
+}
+.testimonials .clients .row {
+  margin-top: 5rem;
+}
+.testimonials .clients .row .mytestimonial {
+  border: 1px solid #ffffffb5;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  text-align: left;
+}
+.testimonials .clients .row .mytestimonial p {
+  padding: 0.6rem;
+}
+.testimonials .clients .row .mytestimonial strong {
+  font-size: 1.4rem;
+}
+.testimonials .clients .row .mytestimonial h5 {
+  padding: 0 0.6rem;
+  text-transform: capitalize;
+  color: #a71a2d;
 }
 
 /*# sourceMappingURL=style.css.map */
