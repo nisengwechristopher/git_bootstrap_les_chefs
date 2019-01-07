@@ -9926,4 +9926,51 @@ header .head-partie2 h1 {
   color: #a71a2d;
 }
 
+.contact {
+  margin: 0 auto;
+  padding: 4rem 0 0.2rem 0;
+  background-image: url("/public/images/main_bg.jpg");
+  text-align: center;
+}
+.contact .contact-info {
+  margin: 5rem auto;
+  width: 35%;
+}
+.contact .contact-info ul {
+  background-color: #a71a2d;
+  border-radius: 1rem;
+  padding: 3rem;
+  list-style: none;
+  color: #ffffff;
+}
+.contact .contact-info ul li {
+  padding-bottom: 2rem;
+}
+.contact .contact-info ul .center {
+  border-top: 1px solid #ffffffb5;
+  border-bottom: 1px solid #ffffffb5;
+}
+.contact .contact-info ul a {
+  display: block;
+  text-decoration: none;
+  color: #ffffffb5;
+  padding-top: 0.8rem;
+}
+.contact .contact-info ul a:hover {
+  color: #ffffff;
+}
+.contact .contact-info ul p {
+  margin-top: 0.8rem;
+  color: #ffffffb5;
+}
+.contact .contact-info ul p:hover {
+  color: #ffffff;
+}
+.contact .contact-info ul i {
+  margin-top: 0.8rem;
+}
+.contact .contact-info ul i:hover {
+  color: #ffffffb5;
+}
+
 /*# sourceMappingURL=style.css.map */
