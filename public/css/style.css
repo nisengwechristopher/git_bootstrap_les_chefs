@@ -9516,10 +9516,6 @@ h3 {
   font-family: Courgette;
   src: url("public/Courgette/Courgette-Regular.ttf");
 }
-body {
-  background-color: #000000;
-}
-
 hr {
   margin: 0;
 }
@@ -9610,6 +9606,7 @@ p {
 
 .text1 {
   text-transform: uppercase;
+  font-size: 5rem;
 }
 
 .text2 {
@@ -9687,15 +9684,17 @@ header {
   width: 100%;
 }
 header .container {
-  max-width: 90%;
+  max-width: 100%;
   text-align: center;
   display: flex;
   margin: 0 auto;
-  padding: 0 5%;
-  opacity: none;
+  padding-left: 11%;
 }
 header .container .logo {
   margin: 0 2.5rem;
+}
+header .container select {
+  display: none;
 }
 header .container ul {
   display: flex;
@@ -9712,7 +9711,6 @@ header .container ul li a {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 1rem;
-  vertical-align: auto;
   border-top: 1px solid #ffffffb5;
   border-bottom: 1px solid #ffffffb5;
   padding: 1rem;
@@ -9723,12 +9721,12 @@ header .container ul li a:hover {
   background-color: #a71a2d;
 }
 header .head-partie2 {
-  max-width: 60%;
-  margin: 6% auto;
+  max-width: 960px;
+  margin: 5% auto;
+  padding: 3% 5% 0% 5%;
   display: block;
 }
 header .head-partie2 h1 {
-  font-size: 3rem;
   text-align: center;
   color: #ffffff;
 }
@@ -9814,7 +9812,7 @@ header .head-partie2 h1 {
   margin: 0 auto;
 }
 .noschefs .chefs ul li img {
-  height: 30rem;
+  height: 50vh;
   border-bottom: 1px solid #696969;
 }
 .noschefs .chefs ul li p {
@@ -9882,7 +9880,7 @@ header .head-partie2 h1 {
   margin: 0;
 }
 .blogpost .col-6 img {
-  height: 20rem;
+  height: 30vh;
   border: 6px solid #dddddd;
   border-radius: 0.8rem;
 }
@@ -9923,7 +9921,7 @@ header .head-partie2 h1 {
 .testimonials .clients .col-2 img {
   border: 6px solid #dddddd;
   border-radius: 50%;
-  height: 12rem;
+  height: 20vh;
 }
 .testimonials .clients .row {
   margin-top: 5rem;

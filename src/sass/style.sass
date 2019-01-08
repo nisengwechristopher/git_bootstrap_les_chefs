@@ -5,7 +5,7 @@
     src: url("public/Courgette/Courgette-Regular.ttf")
 
 
-// variables 
+// variables :
 
 $color0: #ffffffb5 // transparent white
 $color1: #ffffff //white
@@ -14,9 +14,9 @@ $color3: #dddddd // lightger-ish
 $color4: #000000cf //lightblack-ish
 $color5: #000000 //black
 
-// general classes
-body
-    background-color: $color5
+// general classes :
+
+
 hr
     margin: 0
 img
@@ -32,8 +32,10 @@ input
     padding: 0
 .col-2
     border-right: 1px solid $color3
+
 //////////////////
 
+// my own general classes :
 
 .style-container
     background-image: url("/public/images/main_bg.jpg")
@@ -48,7 +50,7 @@ input
     border: 1px solid $color3
     background-color: $color1
 
-//the images on the top corners 
+//the images on the top corners :
 .box-right
             text-align: right
 .box-left
@@ -66,7 +68,8 @@ input
     padding: 0 !important
 //////////////////
 
-//text styles
+//text styles :
+
 span
     font-size: 6rem
 h1
@@ -86,6 +89,7 @@ p
     margin: 0 auto
 .text1
     text-transform: uppercase
+    font-size: 5rem
 .text2
     color: $color2
     text-transform: uppercase
@@ -98,7 +102,7 @@ p
         font-size: 4rem
 //////////////////
 
-// buttons styles
+// buttons styles :
 
 .btn
     background-color: #fff
@@ -142,7 +146,7 @@ p
 ////////////////////////////////////////////////////
 
 
-//Partie I : navigation
+//Partie I : navigation :
 
 header
     background-image: url("/public/images/banner1.jpg")
@@ -151,14 +155,15 @@ header
     height: 98vh
     width:100%
     .container
-        max-width: 90%
+        max-width: 100%
         text-align: center
         display: flex
         margin: 0 auto
-        padding: 0 5%
-        opacity: none
+        padding-left: 11%
         .logo
             margin: 0 2.5rem
+        select
+            display: none  
         ul
             display: flex
             flex-wrap: wrap
@@ -167,14 +172,14 @@ header
             margin-bottom: 0
             list-style: none
             margin: 0 1rem
-            text-align: center 
+            text-align: center
+                 
             li
                 a
                     text-decoration: none
                     text-transform: uppercase
                     color: $color1
                     font-size: 1rem
-                    vertical-align: auto
                     border-top: 1px solid $color0
                     border-bottom: 1px solid $color0
                     padding: 1rem
@@ -182,18 +187,20 @@ header
                     padding-left: 2rem
                     &:hover
                         background-color: $color2
+
     .head-partie2
-        max-width: 60%
-        margin: 6% auto
+        max-width: 960px
+        margin: 5% auto
+        padding: 3% 5% 0% 5%
         display: block
         h1
-            font-size: 3rem
             text-align: center
             color: $color1
 
 ////////////////////////////////////////////////////
 
-//section II our-resto
+//section II our-resto :
+
 .style-container
     .style-container2
         h1
@@ -255,7 +262,7 @@ header
 
 ////////////////////////////////////////////////////
 
-// section III : nos chefs
+// section III : nos chefs :
 
 .noschefs
     background-image: url("/public/images/team_background.jpg")
@@ -273,14 +280,15 @@ header
             li                
                 margin: 0 auto
                 img
-                    height: 30rem
+                    height: 50vh
                     border-bottom: 1px solid #696969
                 p
                     font-size: 1.3rem
 
 ////////////////////////////////////////////////////
 
-// section IV : bookings
+// section IV : bookings :
+
 .request
     background-image: url("/public/images/book_table_bg.jpg")
     border-radius: 1rem
@@ -329,7 +337,7 @@ header
     .col-6
         margin: 0
         img
-            height: 20rem
+            height: 30vh
             border: 6px solid $color3
             border-radius: .8rem
         .mytext
@@ -348,12 +356,10 @@ header
             z-index: 1
             span
                 font-size: 1.5rem 
-        
-
 
 ////////////////////////////////////////////////////
 
-// section V : testimonials
+// section V : testimonials :
 
 .testimonials
     background-image: url('/public/images/testimonials_background.jpg')
@@ -367,7 +373,7 @@ header
             img
                 border: 6px solid $color3
                 border-radius: 50%
-                height: 12rem
+                height: 20vh
 
         .row
             margin-top: 5rem
@@ -388,7 +394,7 @@ header
 
 ////////////////////////////////////////////////////
 
-// section VI : contact
+// section VI : contact :
 
 .contact
     margin: 0 auto
@@ -429,7 +435,7 @@ header
                     
 ////////////////////////////////////////////////////
 
-// section VII : le footer
+// section VII : le footer :
     
 footer
     background-image: url("/public/images/footer_background.jpg")
@@ -481,3 +487,10 @@ footer
     .end-page
         background-color: $color2
         height: 6rem
+
+
+////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
