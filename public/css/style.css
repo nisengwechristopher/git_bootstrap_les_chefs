@@ -9514,7 +9514,7 @@ h3 {
 }
 @font-face {
   font-family: Courgette;
-  src: url("public/Courgette/Courgette-Regular.ttf");
+  font-family-src: url("/public/Courgette/Courgette-Regular.ttf");
 }
 hr {
   margin: 0;
@@ -9582,14 +9582,14 @@ span {
 }
 
 h1 {
-  font-family: "Courgette", cursive;
+  font-family: "Courgette";
   text-align: center;
   padding: 0 auto;
   margin: 0 auto;
 }
 
 h3 {
-  font-family: "Courgette", cursive;
+  font-family: "Courgette";
   text-align: center;
   padding: 0 auto;
   margin: 0 auto;
@@ -9812,7 +9812,7 @@ header .head-partie2 h1 {
   margin: 0 auto;
 }
 .noschefs .chefs ul li img {
-  height: 50vh;
+  height: 50vhi;
   border-bottom: 1px solid #696969;
 }
 .noschefs .chefs ul li p {
@@ -9898,7 +9898,7 @@ header .head-partie2 h1 {
 .blogpost .col-6 .btn3 {
   position: absolute;
   text-align: left;
-  top: 17.5rem;
+  top: 15.4rem;
   right: 6.5rem;
   z-index: 1;
 }
